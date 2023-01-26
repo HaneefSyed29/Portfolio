@@ -156,7 +156,9 @@ class _MobileHomeState extends State<MobileHome> {
                 ),
 
                 MobileProject(
-                  ontab: () {},
+                  ontab: () {
+                    method.openURL("https://github.com/HaneefSyed29/Portfolio");
+                  },
                   image: "assets/images/project2.png",
                 ),
 

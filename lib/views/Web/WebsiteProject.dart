@@ -34,7 +34,9 @@ class _ProjectViewState extends State<ProjectView> {
           ),
           FeatureProject(
             imagePath: "assets/images/project2.png",
-            ontab: () {},
+            ontab: () {
+              method.openURL("https://github.com/HaneefSyed29/Portfolio");
+            },
             projectDesc: "Portfolio Website. ",
             projectTitle: "Devfolio",
             tech1: "Flutter",
