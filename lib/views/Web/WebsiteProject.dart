@@ -25,6 +25,9 @@ class _ProjectViewState extends State<ProjectView> {
             ontabg: () {
               method.openURL("https://github.com/HaneefSyed29/Blogify");
             },
+            ontaby: (){
+              method.openURL("https://youtu.be/3H6-WHohGQM");
+            },
             projectDesc:
                 "Blogging app using Flutter with the feature of Post Creation and having a user-friendly interface. ",
             projectTitle: "Blogify - SeeMore DoMore",
@@ -37,6 +40,9 @@ class _ProjectViewState extends State<ProjectView> {
             ontabg: () {
               method.openURL("https://github.com/HaneefSyed29/Portfolio");
             },
+            ontaby: (){
+              method.openURL("https://youtu.be/mhJLVT0OqqM");
+            },
             projectDesc: "Our portfolio web, built with Flutter, offers a sleek and interactive way to showcase my projects. Navigate through my work with ease, and download my resume. ",
             projectTitle: "Devfolio",
             tech1: "Flutter",
@@ -47,6 +53,9 @@ class _ProjectViewState extends State<ProjectView> {
             imagePath: "assets/images/project3.png",
             ontabg: () {
               method.openURL("https://github.com/HaneefSyed29/NewsGenix");
+            },
+            ontaby: (){
+              method.openURL("https://youtu.be/4b8Kovx-Dqk");
             },
             projectDesc:
                 "Stay informed with our news app built using Flutter. With its clean and modern design, easily browse through the latest news stories and stay up-to-date.",
@@ -60,6 +69,9 @@ class _ProjectViewState extends State<ProjectView> {
             ontabg: () {
               method.openURL("https://github.com/HaneefSyed29/Wally");
             },
+            ontaby: (){
+              method.openURL("https://youtu.be/k4ec04YCITM");
+            },
             projectDesc:
                 "Transform your device's background with our wallpaper app built using Flutter. Browse our curated collection of high-resolution images. ",
             projectTitle: "Wally - Wallpaper App",
@@ -72,6 +84,9 @@ class _ProjectViewState extends State<ProjectView> {
             ontabg: () {
               method.openURL("https://github.com/HaneefSyed29/OnBoard");
             },
+            ontaby: (){
+              method.openURL("https://youtu.be/UjOYFFDAZhg");
+            },
             projectDesc: "Experience a smooth and seamless onboarding process with our onboard screens, built using Flutter. ",
             projectTitle: "OnBoard UI.",
             tech1: "Flutter",
@@ -82,6 +97,9 @@ class _ProjectViewState extends State<ProjectView> {
             imagePath: "assets/images/project6.png",
             ontabg: () {
               method.openURL("https://github.com/HaneefSyed29/Tic-Tac-Toe");
+            },
+            ontaby: (){
+              method.openURL("https://youtu.be/OF5F3DXePPc");
             },
             projectDesc: "Challenge yourself and your friends to a game of Tic-Tac-Toe with our game app built using Flutter, you'll have hours of fun playing one of the classic games. ",
             projectTitle: "Tic-Tac-Toe Game",
