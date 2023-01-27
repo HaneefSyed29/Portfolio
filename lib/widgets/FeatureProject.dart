@@ -9,11 +9,13 @@ class FeatureProject extends StatelessWidget {
   final String tech1;
   final String tech2;
   final String tech3;
-  final VoidCallback? ontab;
+  final VoidCallback? ontabg;
+  final VoidCallback? ontaby;
 
   FeatureProject(
       {required this.imagePath,
-      this.ontab,
+      this.ontaby,
+      this.ontabg,
       required this.projectDesc,
       required this.projectTitle,
       required this.tech1,
@@ -137,27 +139,27 @@ class FeatureProject extends StatelessWidget {
                   ),
                 ),
 
-                // Gitub Link
+                // Gitub Link & youtube link
                 Positioned(
                   top: size.height * 0.42,
                   right: 10.0,
                   child: Container(
                     height: size.height * 0.08,
-                    width: size.width * 0.25,
-                    // color: Colors.indigo,
+                    width: size.width * 0.3,
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.end,
                       children: [
                         IconButton(
+                          icon: const FaIcon(FontAwesomeIcons.youtube),
+                          color: Colors.red.withOpacity(1),
+                          onPressed: (){},
+                        ),
+                        SizedBox(width: 8.0,),
+                        IconButton(
                           icon: const FaIcon(FontAwesomeIcons.github),
                           color: Colors.white.withOpacity(1),
-                          onPressed: ontab,
+                          onPressed: ontabg,
                         ),
-                        // IconButton(
-                        //   icon: FaIcon(FontAwesomeIcons.youtube),
-                        //   color: Colors.red.withOpacity(1),
-                        //   onPressed: ontab,
-                        // ),
                       ],
                     ),
                   ),

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:portfolio_website/utils/Method.dart';
 import 'package:portfolio_website/widgets/custom_icon_button.dart';
 
 class BottomBar extends StatelessWidget {
@@ -7,6 +8,7 @@ class BottomBar extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    Method method = Method();
     double screenWidth = MediaQuery.of(context).size.width;
     double screenHeight = MediaQuery.of(context).size.height;
     return Column(
@@ -41,7 +43,23 @@ class BottomBar extends StatelessWidget {
                     const CustomIconButton(
                         iconData: FontAwesomeIcons.linkedin,
                         url: 'https://www.linkedin.com/in/thehaneefsyed/',
-                        color: Colors.blueAccent)
+                        color: Colors.blueAccent),
+                    SizedBox(
+                      width: screenHeight * 0.022,
+                    ),
+                    SizedBox(
+                        height: screenHeight,
+                        child: IconButton(
+                          padding: const EdgeInsets.all(0.0),
+                          icon: const Icon(
+                            Icons.email,
+                            size: 40.0,
+                            color: Colors.white,
+                          ),
+                          onPressed: () {
+                            method.launchEmail();
+                          },
+                        )),
                   ],
                 ),
                 const Text(

@@ -22,7 +22,7 @@ class _ProjectViewState extends State<ProjectView> {
           ),
           FeatureProject(
             imagePath: "assets/images/project1.png",
-            ontab: () {
+            ontabg: () {
               method.openURL("https://github.com/HaneefSyed29/Blogify");
             },
             projectDesc:
@@ -34,10 +34,10 @@ class _ProjectViewState extends State<ProjectView> {
           ),
           FeatureProject(
             imagePath: "assets/images/project2.png",
-            ontab: () {
+            ontabg: () {
               method.openURL("https://github.com/HaneefSyed29/Portfolio");
             },
-            projectDesc: "Portfolio Website. ",
+            projectDesc: "Our portfolio web, built with Flutter, offers a sleek and interactive way to showcase my projects. Navigate through my work with ease, and download my resume. ",
             projectTitle: "Devfolio",
             tech1: "Flutter",
             tech2: "Dart",
@@ -45,11 +45,11 @@ class _ProjectViewState extends State<ProjectView> {
           ),
           FeatureProject(
             imagePath: "assets/images/project3.png",
-            ontab: () {
+            ontabg: () {
               method.openURL("https://github.com/HaneefSyed29/NewsGenix");
             },
             projectDesc:
-                "Simple and Responsive News App using NewsApi provided by newsapi.org",
+                "Stay informed with our news app built using Flutter. With its clean and modern design, easily browse through the latest news stories and stay up-to-date.",
             projectTitle: "NewsGenix - Daily News Updates",
             tech1: "Flutter",
             tech2: "Dart",
@@ -57,11 +57,11 @@ class _ProjectViewState extends State<ProjectView> {
           ),
           FeatureProject(
             imagePath: "assets/images/project4.png",
-            ontab: () {
+            ontabg: () {
               method.openURL("https://github.com/HaneefSyed29/Wally");
             },
             projectDesc:
-                "Simple and Responsive Wallpaper App using Pexels API.",
+                "Transform your device's background with our wallpaper app built using Flutter. Browse our curated collection of high-resolution images. ",
             projectTitle: "Wally - Wallpaper App",
             tech1: "Dart",
             tech2: "Flutter",
@@ -69,10 +69,10 @@ class _ProjectViewState extends State<ProjectView> {
           ),
           FeatureProject(
             imagePath: "assets/images/project5.png",
-            ontab: () {
+            ontabg: () {
               method.openURL("https://github.com/HaneefSyed29/OnBoard");
             },
-            projectDesc: "OnBoarding Screens Using PageController. ",
+            projectDesc: "Experience a smooth and seamless onboarding process with our onboard screens, built using Flutter. ",
             projectTitle: "OnBoard UI.",
             tech1: "Flutter",
             tech2: "Dart",
@@ -80,10 +80,10 @@ class _ProjectViewState extends State<ProjectView> {
           ),
           FeatureProject(
             imagePath: "assets/images/project6.png",
-            ontab: () {
+            ontabg: () {
               method.openURL("https://github.com/HaneefSyed29/Tic-Tac-Toe");
             },
-            projectDesc: "A Easy To Play Tic-Tac-Toe Game with Simple UI. ",
+            projectDesc: "Challenge yourself and your friends to a game of Tic-Tac-Toe with our game app built using Flutter, you'll have hours of fun playing one of the classic games. ",
             projectTitle: "Tic-Tac-Toe Game",
             tech1: "Flutter",
             tech2: "Dart",
