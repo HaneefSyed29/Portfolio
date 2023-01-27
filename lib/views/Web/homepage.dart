@@ -5,7 +5,7 @@ import 'package:portfolio_website/utils/content_view.dart';
 import 'package:portfolio_website/widgets/custom_tab.dart';
 import 'package:portfolio_website/views/Web/home_view.dart';
 import 'package:portfolio_website/views/Web/WebsiteProject.dart';
-import 'package:scrollable_positioned_list/scrollable_positioned_list.dart';
+//import 'package:scrollable_positioned_list/scrollable_positioned_list.dart';
 import '../../widgets/custom_tab_bar.dart';
 
 class HomePage extends StatefulWidget {
@@ -17,7 +17,7 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage>
     with SingleTickerProviderStateMixin {
-  late ItemScrollController itemScrollController;
+  //late ItemScrollController itemScrollController;
   var scaffoldkey = GlobalKey<ScaffoldState>();
   late double screenHeight;
   late double screenWidth;
@@ -41,7 +41,7 @@ class _HomePageState extends State<HomePage>
   void initState() {
     tabController = TabController(length: contentViews.length, vsync: this);
     super.initState();
-    itemScrollController = ItemScrollController();
+    //itemScrollController = ItemScrollController();
   }
 
   @override
