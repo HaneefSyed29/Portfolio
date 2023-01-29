@@ -32,6 +32,7 @@ class BottomBar extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
                 Row(
+                  crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
                     const CustomIconButton(
                         iconData: FontAwesomeIcons.github,
@@ -45,21 +46,21 @@ class BottomBar extends StatelessWidget {
                         url: 'https://www.linkedin.com/in/thehaneefsyed/',
                         color: Colors.blueAccent),
                     SizedBox(
-                      width: screenHeight * 0.022,
+                      width: screenHeight * 0.021,
                     ),
                     SizedBox(
-                        height: screenHeight,
-                        child: IconButton(
-                          padding: const EdgeInsets.all(0.0),
-                          icon: const Icon(
-                            Icons.email,
-                            size: 40.0,
-                            color: Colors.white,
-                          ),
-                          onPressed: () {
-                            method.launchEmail();
-                          },
-                        )),
+                      height: screenHeight,
+                      child: IconButton(
+                        icon: Icon(
+                          Icons.email,
+                          size: screenHeight * 0.055,
+                          color: Colors.white,
+                        ),
+                        onPressed: () {
+                          method.launchEmail();
+                        },
+                      ),
+                    ),
                   ],
                 ),
                 const Text(
